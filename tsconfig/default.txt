@@ -1,0 +1,18 @@
+rte_link_records{
+   tt_news{
+   	  #page id
+      page=0
+      #You can also set page id that depends on record pid
+      page{
+      	#record pid = page id
+      }
+      #Name of class, usually this name is name of record plugin 
+      classname=tx_ttnews
+      #Parameters that will be prepend to link
+      parameters{
+         tt_news={$uid}
+         #cat=0
+         #backPid=0
+      }
+   }
+}

@@ -1,0 +1,9 @@
+# cat=basic; type=input; label=Insert default TSconfig example
+tsconfig=default
+
+# cat=basic/file; type=user[EXT:rte_link_records/class.tx_rtelinkrecords.php:&tx_rtelinkrecords->textarea]; label=Insert className paths
+classNamePaths=tx_ttnews=typo3conf/ext/tt_news/pi/class.tx_ttnews.php
+
+
+
+
